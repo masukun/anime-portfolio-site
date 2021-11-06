@@ -1,0 +1,66 @@
+@media (max-width: 920px) {
+    .container{
+        width: 100%;
+    }
+    
+    .nav li{
+        display:none;
+    }
+
+    .header-icons {
+        display:none;
+    }
+
+    header .fa-bars{
+        float:right;
+        font-size: 40px;
+        background-color: #005cb1;
+        padding:20px;
+        color:white;
+    }
+    
+    .heading{
+        font-size:60px;
+        padding: 50px 0px 50px 5%;
+    }
+    
+    .notice img{
+        width:100%;
+    }
+
+    .notice h1{
+        padding-left:0px;
+    }
+
+    .inf {
+        font-size:25px;
+        padding: 75px 0px 70px 5%;
+    }
+
+    .anime{
+        float:none;
+    }
+
+    .notice p{
+        padding-left:0px;
+    }
+
+    .heading2{
+        font-size:60px;
+        padding: 75px 0px 70px 25%;
+    }
+
+    .btn-message {
+        margin-left:16%;
+    }
+}
+
+@media (min-width: 920px) {
+    .header-bar .fas{
+        display: none;
+    }
+
+    .header-nav {
+        display:none;
+    }
+}

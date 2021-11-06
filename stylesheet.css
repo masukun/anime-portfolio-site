@@ -1,0 +1,354 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+.body {
+    font-family: "Noto Sans JP","ヒラギノ角ゴ Pro","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"游ゴシック",YuGothic,sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    color: #005cb1;
+}
+
+a {
+    text-decoration: none;
+    color: #005cb1;
+}
+
+ul {
+    list-style: none;
+}
+
+.img {
+    vertical-align:top;
+    vertical-align: bottom;
+}
+
+header {
+    height: 140px;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.header-left {
+    float: left;
+    padding-top: 20px;
+}
+
+.header-logo {
+    height: 100px;
+    width: 135px;
+}
+
+.header-right {
+    padding-top: 20px;
+}
+
+.nav li {
+    float: left;
+    font-size: 1.53125rem;
+    color: #005cb1;
+    font-family: tensura;
+    font-weight: 600;
+    padding: 25px 6% 0px 6%;
+}
+
+.nav li a:hover{
+    opacity:0.5;
+    transition:0.2s;
+}
+
+.header-icons {
+    float: right;
+    font-size: 60px;
+    right: 0;
+    top: 10px;
+}
+
+.header-nav{
+    position: absolute;
+    width:100%;
+    height:800px;
+    font-size:40px;
+    background-color:white;
+    text-align: left;
+    top: 139.9px;
+    z-index:100;
+    transform: translateX(-117.5%);
+    transition:0.2s;
+}
+
+.header-menu li{
+    padding: 55px 30px;
+    border-bottom: 2px solid black;
+}
+
+.header-menu li a:hover{
+    text-decoration: underline;
+}
+
+.header-menu .fas{
+    padding:0px 10px;
+}
+
+.header-menu-icons{
+    text-align:center;
+    border-bottom:2px solid black;
+}
+
+.header-menu-icons .fab{
+    padding:70px 20px 73px 20px;
+}
+
+.drawer-btn:checked ~ .header-nav{
+    transform: translateX(0%);
+}
+
+.drawer-btn {
+    position:absolute;
+    right:27px;
+    top:47px;
+    transform: scale(4.0);
+    opacity:0;
+}
+
+.swiper-container{
+    overflow:hidden;
+}
+
+.swiper-slide {
+    text-align:center;
+}
+
+.swiper-slide img {
+    z-index:1;
+    background-size: cover;
+    width: 100%;
+    height:500px;
+    vertical-align:bottom;
+}
+
+.anime-wrapper {
+    background: rgba(107,228,255,.18);
+    padding-bottom: 250px;
+}
+
+.head {
+    display:flex;
+}
+
+.heading {
+    display: block;
+    font-size: 120px;
+    color: #005cb1;
+    letter-spacing: 1.5px;
+    transform: scaleX(1.1);
+    padding: 150px 0px 70px 5%;
+}
+
+.notice img {
+    width: 440px;
+}
+
+.inf {
+    font-size: 30px;
+    color: #005cb1;
+    padding: 220px 0px 70px 5%;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+}
+
+.anime {
+    float: left;
+}
+
+.notice h1{
+    font-size: 50px;
+    color: #005cb1;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    padding-left: 50%;
+}
+
+.notice .advi{
+    font-size: 70px;
+}
+
+.notice p{
+    color: #005cb1;
+    padding-left: 50%;
+    transform:scaleY(1.1);
+    font-size: 20px;
+    line-height: 45px;
+    letter-spacing: 0.05em;
+}
+
+.notice .channel{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color:#005cb1;
+    padding: 5px 20px;
+    line-height: normal;
+    transform: scaleY(0);
+}
+
+.btn-message{
+    display: inline-block;
+    padding: 12px 24px;
+    margin:20% 0px 0px 0px;
+    font-weight: bold;
+    border:5px solid #005cb1;
+    box-shadow: 0px 6px 6px 5px #dcdcdc;
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn-message:hover{
+    opacity:0.5;
+    transition:0.3s;
+}
+  
+.btn-message:active{
+    box-shadow: none;
+    position:relative;
+    border-bottom:none;
+    top:7px;
+}
+
+.official{
+    font-size:30px;
+}
+
+.comic-wrapper {
+    text-align:center;
+}
+
+.comic-wrapper img{
+    width: 33.33333333%;
+    vertical-align:bottom;
+}
+
+.heading2 {
+    display: block;
+    font-size: 120px;
+    color: #005cb1;
+    letter-spacing: 1.5px;
+    transform: scaleX(1.1);
+    padding: 150px 0px 100px 25%;
+    text-align:center;
+}
+
+footer{
+    background-color: black;
+    padding-bottom:50px;
+}
+
+footer p{
+    text-align: center;
+    font-size:12px;
+    font-weight: bold;
+    color: white;
+    padding-top:50px;
+    letter-spacing:1px;
+}
