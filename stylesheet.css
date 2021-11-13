@@ -246,6 +246,11 @@ header {
     padding: 150px 0px 70px 5%;
 }
 
+.notice{
+    width:80%;
+    margin:0 auto;
+}
+
 .notice img {
     width: 440px;
 }
